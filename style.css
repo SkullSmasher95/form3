@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* width: 1904px; */
+    height: 100vh;
+    /* padding: 100px 0px; */
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    display: inline-block;
+    position: absolute;
+    right: -125px;
+    margin-top: 80px;
+}
+
+.list:hover{ 
+    right: 0px;
+    transition: 0.6s;
+    
+}
+
+.list li{
+    list-style-type: none;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background-color: blueviolet;
+    line-height: 60px;
+    border-radius: 50%;
+    
+}
+
+.list li:hover{
+    background-color: white;
+    transition: 0.6s;
+
+}
+
+.list li a{
+    color: white;
+    font-size: 20px;
+}
+
+.list li a:hover{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.form-section{
+    /* width: 110%; */
+    background: url(images/background.jpg) center center no-repeat;
+    /* height: 100vh; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-bg{
+    background: black;
+    /* margin: 100px auto; */
+    width: 30%;
+    padding: 50px;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+}
+
+
+.image img{
+    width: 100%;
+}
+
+input{
+    background: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 8px 0px;
+    width: 96.5%;
+    margin: 10px 0px;
+    
+}
+
+.name input{
+    width: 48%;
+}
+
+.f-name{
+    margin-right: 15px;
+}
+
+button{
+    font-size: 10px;
+    background: black;
+    padding: 12px 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    box-shadow: 0px 0px 10px navy;
+    transform: scale(1.2);
+    transition: 0.6s;
+    cursor: pointer;
+  
+
+}
+
+button:hover{
+    background: navy;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.6s;
+    border: 2px solid purple;
+}
